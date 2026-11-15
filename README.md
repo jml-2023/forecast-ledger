@@ -10,7 +10,54 @@ Every change is kept in the [history of this page](https://github.com/jml-2023/f
 
 A P50 is the date, or the count, by which I think the outcome is as likely as not, and a P80 the one by which I think it's four-in-five likely. Where a piece gives a chance instead of two dates, the row quotes that forecast, then shows its chance and the date it applies to. If I'm well calibrated, about half the forecasts with a P50 and a P80 will have come true by their P50 dates, and about four in five by their P80 dates. The same goes for chances: about seven in ten of the forecasts I give 70% should come true.
 
-No forecasts yet. The first ones go in on the day their piece is published.
+## Summary
+
+3 forecasts: 3 open, 0 hit, 0 missed.
+
+| ID | Forecast | From | Dates or chance | Status |
+|---|---|---|---|---|
+| [F-001](#f-001) | The duty spreads | [The design organisation in 2028](https://jerrylieveld.substack.com/p/the-design-organisation-in-2028), 15 November 2026 | P50 the October 2027 count; P80 the October 2028 count | open |
+| [F-002](#f-002) | The job gets a name | [The design organisation in 2028](https://jerrylieveld.substack.com/p/the-design-organisation-in-2028), 15 November 2026 | P50 the October 2027 count; P80 the October 2028 count | open |
+| [F-003](#f-003) | Design systems add agent-surface patterns | [The interface you never render](https://jerrylieveld.substack.com/p/the-interface-you-never-render), 15 November 2026 | P50 31 December 2027; P80 31 December 2028 | open |
+
+## Quarterly scorecards
+
+The first scorecard is for the quarter ending 31 December 2026.
+
+## The forecasts
+
+### F-001
+
+**The duty spreads.** From [The design organisation in 2028](https://jerrylieveld.substack.com/p/the-design-organisation-in-2028), published 15 November 2026. Status: open.
+
+- Outcome: The share of design postings asking for either duty at least doubles: from 19.6% on 30 October 2026 to 39.3%, and from 17.8% to 35.7% without whichever company posts the most of them.
+- P50: the October 2027 count
+- P80: the October 2028 count
+- Review: 30 October 2027, then every October
+- Wrong if: The October 2028 count misses either threshold.
+- Note: "Either duty" is judging what AI makes, or setting the rules it works to. The postings are those on the 80 public job boards the piece counts.
+
+### F-002
+
+**The job gets a name.** From [The design organisation in 2028](https://jerrylieveld.substack.com/p/the-design-organisation-in-2028), published 15 November 2026. Status: open.
+
+- Outcome: At least 5 design postings on these boards have a title naming the work: evaluation or evals, quality, QA, guardrails, model or AI behaviour, or a design system for AI. None did on 30 October 2026.
+- P50: the October 2027 count
+- P80: the October 2028 count
+- Review: With the first forecast
+- Wrong if: The October 2028 count finds fewer than 5.
+- Note: "These boards" are the 80 public job boards the piece counts. Reviewed with The duty spreads, from the same piece.
+
+### F-003
+
+**Design systems add agent-surface patterns.** From [The interface you never render](https://jerrylieveld.substack.com/p/the-interface-you-never-render), published 15 November 2026. Status: open.
+
+- Outcome: At least two of six major public design systems — IBM Carbon, GOV.UK, USWDS, Apple HIG, Shopify Polaris, or Stripe's public design/docs system — publish an explicit pattern or specification for agent-consumed / headless product surfaces alongside human screens.
+- P50: 31 December 2027
+- P80: 31 December 2028
+- Review: 31 December 2027
+- Wrong if: Fewer than two of those six have published one by 31 December 2028.
+- Note: Checked against the public documentation of those six named design and developer systems.
 
 ---
 

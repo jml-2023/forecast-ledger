@@ -1,3 +1,67 @@
 {
- "forecasts": []
+ "forecasts": [
+  {
+   "id": "F-001",
+   "made_on": "2026-11-15",
+   "piece": "s03",
+   "piece_title": "The design organisation in 2028",
+   "url": "https://jerrylieveld.substack.com/p/the-design-organisation-in-2028",
+   "name": "The duty spreads",
+   "kind": "dates",
+   "p50": "the October 2027 count",
+   "p80": "the October 2028 count",
+   "outcome": "the share of design postings asking for either duty at least doubles: from 19.6% on 30 October 2026 to 39.3%, and from 17.8% to 35.7% without whichever company posts the most of them.",
+   "review": "30 October 2027, then every October",
+   "wrong_if": "the October 2028 count misses either threshold.",
+   "context": "\"Either duty\" is judging what AI makes, or setting the rules it works to. The postings are those on the 80 public job boards the piece counts.",
+   "checks": [
+    "2027-10-30",
+    "2028-10-30"
+   ],
+   "status": "open",
+   "history": []
+  },
+  {
+   "id": "F-002",
+   "made_on": "2026-11-15",
+   "piece": "s03",
+   "piece_title": "The design organisation in 2028",
+   "url": "https://jerrylieveld.substack.com/p/the-design-organisation-in-2028",
+   "name": "The job gets a name",
+   "kind": "dates",
+   "p50": "the October 2027 count",
+   "p80": "the October 2028 count",
+   "outcome": "at least 5 design postings on these boards have a title naming the work: evaluation or evals, quality, QA, guardrails, model or AI behaviour, or a design system for AI. None did on 30 October 2026.",
+   "review": "with the first forecast",
+   "wrong_if": "the October 2028 count finds fewer than 5.",
+   "context": "\"These boards\" are the 80 public job boards the piece counts. Reviewed with The duty spreads, from the same piece.",
+   "checks": [
+    "2027-10-30",
+    "2028-10-30"
+   ],
+   "status": "open",
+   "history": []
+  },
+  {
+   "id": "F-003",
+   "made_on": "2026-11-15",
+   "piece": "f01",
+   "piece_title": "The interface you never render",
+   "url": "https://jerrylieveld.substack.com/p/the-interface-you-never-render",
+   "name": "Design systems add agent-surface patterns",
+   "kind": "dates",
+   "p50": "31 December 2027",
+   "p80": "31 December 2028",
+   "outcome": "at least two of six major public design systems — IBM Carbon, GOV.UK, USWDS, Apple HIG, Shopify Polaris, or Stripe's public design/docs system — publish an explicit pattern or specification for agent-consumed / headless product surfaces alongside human screens.",
+   "review": "31 December 2027",
+   "wrong_if": "fewer than two of those six have published one by 31 December 2028.",
+   "context": "Checked against the public documentation of those six named design and developer systems.",
+   "checks": [
+    "2027-12-31",
+    "2028-12-31"
+   ],
+   "status": "open",
+   "history": []
+  }
+ ]
 }
