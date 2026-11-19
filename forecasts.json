@@ -62,6 +62,27 @@
    ],
    "status": "open",
    "history": []
+  },
+  {
+   "id": "F-004",
+   "made_on": "2026-11-19",
+   "piece": "w13",
+   "piece_title": "Why \"Are you sure?\" modals fail agents: the reversibility matrix for speculative UI",
+   "url": "https://jerrylieveld.substack.com/p/why-are-you-sure-modals-fail-agents",
+   "name": "Agent protocols ship per-tool reversibility and blast-radius routing",
+   "kind": "dates",
+   "p50": "31 December 2027",
+   "p80": "31 December 2028",
+   "outcome": "at least two of six major agentic developer or protocol ecosystems — Model Context Protocol (MCP), Anthropic Claude Code, OpenAI Codex, Cursor, GitHub Copilot, or Windsurf — ship a declarative per-tool reversibility and blast-radius field (beyond a single boolean readOnlyHint or destructiveHint) that UI clients use to route reversible workspace mutations into preview diffs without modal prompts while keeping hard confirmation on external calls.",
+   "review": "31 December 2027",
+   "wrong_if": "fewer than two ship such schema-driven routing by 31 December 2028.",
+   "context": "Checked against official public protocol specifications and client documentation of MCP, Claude Code, Codex, Cursor, GitHub Copilot, and Windsurf.",
+   "checks": [
+    "2027-12-31",
+    "2028-12-31"
+   ],
+   "status": "open",
+   "history": []
   }
  ]
 }

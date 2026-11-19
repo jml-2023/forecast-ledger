@@ -12,13 +12,14 @@ A P50 is the date, or the count, by which I think the outcome is as likely as no
 
 ## Summary
 
-3 forecasts: 3 open, 0 hit, 0 missed.
+4 forecasts: 4 open, 0 hit, 0 missed.
 
 | ID | Forecast | From | Dates or chance | Status |
 |---|---|---|---|---|
 | [F-001](#f-001) | The duty spreads | [The design organisation in 2028](https://jerrylieveld.substack.com/p/the-design-organisation-in-2028), 15 November 2026 | P50 the October 2027 count; P80 the October 2028 count | open |
 | [F-002](#f-002) | The job gets a name | [The design organisation in 2028](https://jerrylieveld.substack.com/p/the-design-organisation-in-2028), 15 November 2026 | P50 the October 2027 count; P80 the October 2028 count | open |
 | [F-003](#f-003) | Design systems add agent-surface patterns | [The interface you never render](https://jerrylieveld.substack.com/p/the-interface-you-never-render), 15 November 2026 | P50 31 December 2027; P80 31 December 2028 | open |
+| [F-004](#f-004) | Agent protocols ship per-tool reversibility and blast-radius routing | [Why "Are you sure?" modals fail agents: the reversibility matrix for speculative UI](https://jerrylieveld.substack.com/p/why-are-you-sure-modals-fail-agents), 19 November 2026 | P50 31 December 2027; P80 31 December 2028 | open |
 
 ## Quarterly scorecards
 
@@ -58,6 +59,17 @@ The first scorecard is for the quarter ending 31 December 2026.
 - Review: 31 December 2027
 - Wrong if: Fewer than two of those six have published one by 31 December 2028.
 - Note: Checked against the public documentation of those six named design and developer systems.
+
+### F-004
+
+**Agent protocols ship per-tool reversibility and blast-radius routing.** From [Why "Are you sure?" modals fail agents: the reversibility matrix for speculative UI](https://jerrylieveld.substack.com/p/why-are-you-sure-modals-fail-agents), published 19 November 2026. Status: open.
+
+- Outcome: At least two of six major agentic developer or protocol ecosystems — Model Context Protocol (MCP), Anthropic Claude Code, OpenAI Codex, Cursor, GitHub Copilot, or Windsurf — ship a declarative per-tool reversibility and blast-radius field (beyond a single boolean readOnlyHint or destructiveHint) that UI clients use to route reversible workspace mutations into preview diffs without modal prompts while keeping hard confirmation on external calls.
+- P50: 31 December 2027
+- P80: 31 December 2028
+- Review: 31 December 2027
+- Wrong if: Fewer than two ship such schema-driven routing by 31 December 2028.
+- Note: Checked against official public protocol specifications and client documentation of MCP, Claude Code, Codex, Cursor, GitHub Copilot, and Windsurf.
 
 ---
 
