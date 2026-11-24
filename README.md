@@ -12,7 +12,7 @@ A P50 is the date, or the count, by which I think the outcome is as likely as no
 
 ## Summary
 
-4 forecasts: 4 open, 0 hit, 0 missed.
+5 forecasts: 5 open, 0 hit, 0 missed.
 
 | ID | Forecast | From | Dates or chance | Status |
 |---|---|---|---|---|
@@ -20,6 +20,7 @@ A P50 is the date, or the count, by which I think the outcome is as likely as no
 | [F-002](#f-002) | The job gets a name | [The design organisation in 2028](https://jerrylieveld.substack.com/p/the-design-organisation-in-2028), 15 November 2026 | P50 the October 2027 count; P80 the October 2028 count | open |
 | [F-003](#f-003) | Design systems add agent-surface patterns | [The interface you never render](https://jerrylieveld.substack.com/p/the-interface-you-never-render), 15 November 2026 | P50 31 December 2027; P80 31 December 2028 | open |
 | [F-004](#f-004) | Agent protocols ship per-tool reversibility and blast-radius routing | [Why "Are you sure?" modals fail agents: the reversibility matrix for speculative UI](https://jerrylieveld.substack.com/p/why-are-you-sure-modals-fail-agents), 19 November 2026 | P50 31 December 2027; P80 31 December 2028 | open |
+| [F-005](#f-005) | Major API platforms cap reasoning tokens separately from visible output | [Why turning reasoning effort down rescued my flagship audit](https://jerrylieveld.substack.com/p/raising-reasoning-effort-broke-the-winner), 24 November 2026 | P50 30 June 2027; P80 31 December 2027 | open |
 
 ## Quarterly scorecards
 
@@ -70,6 +71,17 @@ The first scorecard is for the quarter ending 31 December 2026.
 - Review: 31 December 2027
 - Wrong if: Fewer than two ship such schema-driven routing by 31 December 2028.
 - Note: Checked against official public protocol specifications and client documentation of MCP, Claude Code, Codex, Cursor, GitHub Copilot, and Windsurf.
+
+### F-005
+
+**Major API platforms cap reasoning tokens separately from visible output.** From [Why turning reasoning effort down rescued my flagship audit](https://jerrylieveld.substack.com/p/raising-reasoning-effort-broke-the-winner), published 24 November 2026. Status: open.
+
+- Outcome: At least two of four major API platforms — OpenRouter, Anthropic, OpenAI, or Google Vertex/AI Studio — expose a documented request parameter that caps reasoning tokens, where reasoning tokens do not count against the visible-output cap (so a reasoning burst cannot shorten the visible answer).
+- P50: 30 June 2027
+- P80: 31 December 2027
+- Review: 30 June 2027
+- Wrong if: Fewer than two of those four expose such a parameter by 31 December 2027.
+- Note: Checked against official public API request documentation of OpenRouter, Anthropic, OpenAI, and Google Vertex/AI Studio.
 
 ---
 

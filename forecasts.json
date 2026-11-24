@@ -83,6 +83,27 @@
    ],
    "status": "open",
    "history": []
+  },
+  {
+   "id": "F-005",
+   "made_on": "2026-11-24",
+   "piece": "w01",
+   "piece_title": "Why turning reasoning effort down rescued my flagship audit",
+   "url": "https://jerrylieveld.substack.com/p/raising-reasoning-effort-broke-the-winner",
+   "name": "Major API platforms cap reasoning tokens separately from visible output",
+   "kind": "dates",
+   "p50": "30 June 2027",
+   "p80": "31 December 2027",
+   "outcome": "at least two of four major API platforms — OpenRouter, Anthropic, OpenAI, or Google Vertex/AI Studio — expose a documented request parameter that caps reasoning tokens, where reasoning tokens do not count against the visible-output cap (so a reasoning burst cannot shorten the visible answer).",
+   "review": "30 June 2027",
+   "wrong_if": "fewer than two of those four expose such a parameter by 31 December 2027.",
+   "context": "Checked against official public API request documentation of OpenRouter, Anthropic, OpenAI, and Google Vertex/AI Studio.",
+   "checks": [
+    "2027-06-30",
+    "2027-12-31"
+   ],
+   "status": "open",
+   "history": []
   }
  ]
 }
