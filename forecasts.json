@@ -104,6 +104,48 @@
    ],
    "status": "open",
    "history": []
+  },
+  {
+   "id": "F-006",
+   "made_on": "2026-11-27",
+   "piece": "f02",
+   "piece_title": "In, near, and out of the loop",
+   "url": "https://jerrylieveld.substack.com/p/in-near-and-out-of-the-loop",
+   "name": "Agent harnesses ship cross-family review routing",
+   "kind": "dates",
+   "p50": "30 June 2027",
+   "p80": "30 June 2028",
+   "outcome": "at least two of five major coding/agent harnesses — Anthropic Claude Code, OpenAI Codex, Cursor, GitHub Copilot, or Google's developer agent tooling — ship built-in configuration for cross-family review routing",
+   "review": "30 June 2027",
+   "wrong_if": "fewer than two of those five ship it by 30 June 2028.",
+   "context": "Requires configuration-level cross-family reviewer routing rather than prose prompt advice.",
+   "checks": [
+    "2027-06-30",
+    "2028-06-30"
+   ],
+   "status": "open",
+   "history": []
+  },
+  {
+   "id": "F-007",
+   "made_on": "2026-11-27",
+   "piece": "w17",
+   "piece_title": "Passed 19 of 19 tests — and made my agent 56% slower",
+   "url": "https://jerrylieveld.substack.com/p/passed-19-of-19-tests-made-agent-56-percent-slower",
+   "name": "Coding harnesses gate context compaction on prompt-cache TTL",
+   "kind": "dates",
+   "p50": "31 December 2027",
+   "p80": "30 June 2028",
+   "outcome": "at least two of four major coding-agent harnesses — Anthropic Claude Code, OpenAI Codex, Cursor, or OpenCode — gate automatic context compaction or tool-output pruning on upstream prompt-cache TTL state (delaying history rewrites while a prefix cache is warm, unless approaching the context-window ceiling).",
+   "review": "31 December 2027",
+   "wrong_if": "fewer than two implement cache-TTL-aware compaction by 30 June 2028.",
+   "context": "Checked against official public documentation and source releases of Claude Code, Codex, Cursor, and OpenCode.",
+   "checks": [
+    "2027-12-31",
+    "2028-06-30"
+   ],
+   "status": "open",
+   "history": []
   }
  ]
 }
